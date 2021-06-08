@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.project2part3" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Project2Part3" >
+        <activity android:name=".CreateAccountActivity" android:label="Create Account">
+        </activity>
+        <activity android:name=".AddBook" android:label="Enter New Book Information">
+        </activity>
+        <activity android:name=".AskForBookActivity" android:label="Add Book?">
+        </activity>
+        <activity android:name=".TransactionActivity" android:label="Transaction Logs">
+        </activity>
+        <activity android:name=".ConfirmActivity" android:label="Confirm Activity">
+        </activity>
+        <activity android:name=".SignInConfirm" android:label="Sign In">
+        </activity>
+        <activity android:name=".ChooseBookActivity" android:label="Choose Book">
+        </activity>
+        <activity android:name=".PlaceHoldActivity" android:label="Place Holds">
+        </activity>
+        <activity android:name=".ManageSystemActivity" android:label="Manage System">
+        </activity>
+        <activity android:name=".MainActivity" android:label="Main Menu" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
